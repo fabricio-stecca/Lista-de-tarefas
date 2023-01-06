@@ -26,6 +26,8 @@ function adicionar() {
                 checkbox.setAttribute(`id`, `checkbox${ordem}`)
                 checkbox.setAttribute(`class`, `checkbox`)
                 checkbox.setAttribute(`onclick`, `checkboxf(${ordem})`)
+                let label = document.createElement(`label`)
+                label.setAttribute(`for`, `checkbox${ordem}`)
 
 
                 let div = document.createElement(`div`)
@@ -53,7 +55,8 @@ function adicionar() {
 
                 resultado.appendChild(res)
                 p.appendChild(txt)
-                div.appendChild(p)
+                label.appendChild(p)
+                div.appendChild(label)
                 res.appendChild(checkbox)
                 res.appendChild(div)
                 res.appendChild(button)
