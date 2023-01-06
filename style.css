@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: rgb(187, 187, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    width: 75vw;
+    padding: 10px 25px 13px 25px;
+    margin: 5px 0px 0px 0px;
+    
+}
+
+.caixalista {
+    background-color: rgb(97, 97, 255);
+    border: 2px solid black;
+    color: white;
+    overflow-wrap: break-word;
+
+
+}
+
+.button {
+    height: 51px;
+    width: 46px;
+    background-color: rgb(187, 187, 255);
+    color: white;
+    font-weight: 800;
+    margin: 0px 10px 0px 1px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.checkbox {
+    height: 24px;
+    width: 24px;
+    margin: 14px 15px 1px 15px;
+    cursor: pointer;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.res {
+    display: flex;
+    margin-bottom: 5px;
+}
